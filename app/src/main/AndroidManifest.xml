@@ -36,9 +36,9 @@
             android:screenOrientation="userLandscape"
             android:theme="@style/SplashTheme">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                android:exported="true"
+                <action android:name="android.intent.action.MAIN" android:exported="true"/>
+                <category android:name="android.intent.category.LAUNCHER" android:exported="true"/>
             </intent-filter>
         </activity>
         <activity
