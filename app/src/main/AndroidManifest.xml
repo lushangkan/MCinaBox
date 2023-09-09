@@ -27,9 +27,11 @@
             android:name=".activity.LoginActivity"
             android:screenOrientation="userLandscape" />
         <activity
+            android:exported="true"
             android:name=".activity.MainActivity"
             android:screenOrientation="userLandscape" />
         <activity
+            android:exported="true"
             android:name=".activity.SplashActivity"
             android:screenOrientation="userLandscape"
             android:theme="@style/SplashTheme"
@@ -41,14 +43,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:exported="true"
             android:name=".gamecontroller.ckb.CustomizeKeyboardEditorActivity"
             android:configChanges="screenSize|keyboard|navigation|orientation|keyboardHidden"
             android:screenOrientation="userLandscape" />
         <activity
+            android:exported="true"
             android:name=".activity.OldMainActivity"
             android:configChanges="screenSize|keyboard|navigation|orientation|keyboardHidden"
             android:screenOrientation="userLandscape" />
         <activity
+            android:exported="true"
             android:name=".launcher.launch.Activity.BoatStartupActivity"
             android:alwaysRetainTaskState="true"
             android:configChanges="screenSize|keyboard|navigation|orientation|keyboardHidden"
