@@ -23,6 +23,7 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:theme="@style/AppTheme">
         <activity
+            android:exported="true"
             android:name=".activity.LoginActivity"
             android:screenOrientation="userLandscape" />
         <activity
