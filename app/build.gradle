@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: "androidx.navigation.safeargs"
 
 android {
-    compileSdk 30
+    compileSdk 33
     buildToolsVersion '33.0.1'
 
     signingConfigs {
